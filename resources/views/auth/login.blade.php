@@ -6,8 +6,6 @@
         <div class="col-md-6">
             <div class="card " id="formContent">
 
-
-
                 <div class="card-header">{{ __('ورود') }}</div>
 
                 <div class="card-body">

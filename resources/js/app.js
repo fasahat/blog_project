@@ -5,7 +5,7 @@
  */
 
 require('./bootstrap');
-require('./master.css');
+
 
 import $ from 'jquery';
 window.$ = window.jQuery = $;

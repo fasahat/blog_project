@@ -21,6 +21,12 @@ Route::get('/posts',[
     'as' => 'posts'
 ]);
 
+Route::get('/cpanel',[
+    'middleware' => 'auth',
+    'uses' => 'CPanel\CPanelController@index',
+    'as' => 'cpanel'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

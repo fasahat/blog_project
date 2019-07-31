@@ -1,9 +1,13 @@
 body {
     direction: rtl;
+    font-family: BYekan !important;
 }
-.header-navbar {
 
+@font-face {
+    font-family: BYekan;
+    src: url('../fonts/BYekan+.ttf');
 }
+
 #formContent {
     margin-top: 15%;
     -webkit-border-radius: 10px 10px 10px 10px;
