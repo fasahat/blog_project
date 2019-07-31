@@ -6178,7 +6178,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "body {\r\n    direction: rtl;\r\n}\r\n.header-navbar {\r\n\r\n}\r\n#all-posts {\r\n    text-align: right;\r\n    direction: rtl;\r\n\r\n}\r\n\r\n.post-preview {\r\n    border-bottom: 1px silver solid;\r\n    padding: 10px 0px;\r\n}\r\n\r\n.post-preview .post-title {\r\n    margin-top: 30px;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.post-preview .post-subtitle {\r\n    font-weight: 300;\r\n    margin: 0 0 10px;\r\n}\r\n", ""]);
+exports.push([module.i, "body {\r\n    direction: rtl;\r\n}\r\n.header-navbar {\r\n\r\n}\r\n#formContent {\r\n    margin-top: 15%;\r\n    border-radius: 10px 10px 10px 10px;\r\n    background: #fff;\r\n    padding: 30px;\r\n    width: 100%;\r\n    /*max-width: 450px;*/\r\n    position: relative;\r\n    padding: 0px;\r\n    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);\r\n    text-align: center;\r\n}\r\n\r\n#all-posts {\r\n    text-align: right;\r\n    direction: rtl;\r\n\r\n}\r\n\r\n.post-preview {\r\n    border-bottom: 1px silver solid;\r\n    padding: 10px 0px;\r\n}\r\n\r\n.post-preview .post-title {\r\n    margin-top: 30px;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.post-preview .post-subtitle {\r\n    font-weight: 300;\r\n    margin: 0 0 10px;\r\n}\r\n", ""]);
 
 // exports
 
