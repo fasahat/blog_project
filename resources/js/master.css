@@ -1,0 +1,26 @@
+body {
+    direction: rtl;
+}
+.header-navbar {
+
+}
+#all-posts {
+    text-align: right;
+    direction: rtl;
+
+}
+
+.post-preview {
+    border-bottom: 1px silver solid;
+    padding: 10px 0px;
+}
+
+.post-preview .post-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.post-preview .post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px;
+}
