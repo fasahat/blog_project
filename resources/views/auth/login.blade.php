@@ -45,11 +45,8 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('ورود') }}
                                 </button>
-
-
                             </div>
                         </div>
-
                     </form>
                 </div>
             </div>

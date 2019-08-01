@@ -17,6 +17,11 @@ Route::get('/posts',[
     'uses' => 'Post\PostController@index',
     'as' => 'posts'
 ]);
+
+Route::post('/posts',[
+    'uses' => 'Post\PostController@store',
+    'as' => 'store_posts'
+]);
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });

@@ -18,6 +18,40 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
+
+    function insertPost(elem){
+        var formElement = elem.closest('form')
+        var title = $('input[name=title]').val()
+        var body = $('textarea[name=body]').val()
+
+        let data = {
+            "title" : title,
+            "body" : body
+        }
+
+
+        // let item = {}
+        // item ["title"] = title;
+        // item ["email"] = body;
+        // let data = []
+        // data.push(item);
+        // console.log((data))
+        $.ajax({
+            url: "/api/posts",
+            method: "POST",
+            data : data,
+            datatype : "json",
+            success : function(result) {
+
+                window.location = "/"
+            },
+            complete: function (result) {
+
+            }
+
+        });
+
+    }
     function DataStreamer(){
         let allPoints = '';
         $.ajax({
@@ -32,14 +66,8 @@
             },
             complete: function (result) {
 
-
-
-
             }
-
         });
-
-
     }
 
     jQuery(document).ready(function(){
