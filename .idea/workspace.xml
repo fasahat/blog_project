@@ -4,6 +4,12 @@
     <list default="true" id="3a03885b-86fb-4e0a-8f19-b585ef40180a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
 =======
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php" afterDir="false" />
@@ -31,11 +37,19 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
 =======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php">
@@ -62,6 +76,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,6 +98,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,7 +146,10 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -334,8 +354,11 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
               <item name="Post" type="462c0819:PsiDirectoryNode" />
 =======
+=======
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
               <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,6 +371,9 @@
               <item name="blog_project" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
+=======
 >>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
             </path>
             <path>
@@ -355,6 +381,11 @@
               <item name="blog_project" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
 =======
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
@@ -366,6 +397,11 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
 =======
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
@@ -433,7 +469,11 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="48120000" />
+=======
+    <option name="totallyTimeSpent" value="49297000" />
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
 =======
     <option name="totallyTimeSpent" value="49297000" />
 >>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
@@ -611,6 +651,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -628,6 +669,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
 =======
 >>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
     <entry file="file://$PROJECT_DIR$/public/css/master.css">
@@ -734,8 +777,13 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="360">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+=======
+        <state relative-caret-position="162">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+>>>>>>> 8d3f48686e227602b92b87c4dc01108595de5c88
 =======
         <state relative-caret-position="162">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
