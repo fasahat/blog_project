@@ -26,42 +26,10 @@ class PostController extends Controller
         $post->title = $title;
         $post->body = $body;
         $post->save();
-//            $post = Post::create($request->all());
 
         return response()->json($post, 201);
 
 
-//        return 'test';
 
-
-
-//        $post = Post::create($request->all());
-//        return $post;
-//        return response()->json($post, 201);
-//        $validated = $request->validated();
-//        return $validated;
-//        $post = ($request->all());
-//        $array_data = (array)$post;
-//RETURN $request;
-        $validator = Validator::make([
-            'title' => $title,
-            'body' => $body,
-            ] ,[
-            'title' => 'required|min:3',
-            'body'  => 'required'
-        ]);
-//return 'OK';
-        if ($validator->fails())
-        {
-            return 'ok';
-            $post->title = $title;
-            $post->body = $body;
-            $post->save();
-//            $post = Post::create($request->all());
-            return response()->json($post, 201);
-        } else {
-            return 'bad';
-            return response()->json(null,204);
-        }
     }
 }
