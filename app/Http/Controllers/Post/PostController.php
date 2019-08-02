@@ -21,6 +21,31 @@ class PostController extends Controller
     }
 
     public function store(Request $request,Post $post){
+
+        $title = $request['title'];
+        $body = $request['body'];
+        return $title.'  '.$body;
+        $validator = Validator::make([
+            'title' => $title,
+            'body' => $body,
+        ] ,[
+            'title' => 'required|min:3',
+            'body'  => 'required'
+        ]);
+
+        if ($validator->fails())
+        {
+            return 'ok';
+            $post->title = $title;
+            $post->body = $body;
+            $post->save();
+//            $post = Post::create($request->all());
+            return response()->json($post, 201);
+        } else {
+            return 'bad';
+            return response()->json(null,204);
+        }
+
         $title = $request['title'];
         $body = $request['body'];
         $post->title = $title;
