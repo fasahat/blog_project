@@ -29,4 +29,4 @@ Route::get('/cpanel',[
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'Home\HomeController@index')->name('home');
